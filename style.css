@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+}
+body{
+    margin: 0;
+}
+
+.header{
+    background-image: url(/img/shan-elahi-DDiLYt_F88w-unsplash.jpg);
+    background-position: center;   
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+    justify-content: end;
+    opacity: 0.9;
+}
+
+#header-txt{
+    color: #0f0e0d;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:  #fd9a18;
+    text-shadow: 3px 2px 2px black;
+}
+
+.header p{
+    letter-spacing: 0.1rem;
+    margin: 1rem;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    background-color: rgba(233, 124, 51, 0.4);    
+}
+
+.header a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    border: 5px solid #fd9a18;
+    margin: 2rem;
+    padding: 0.5rem;
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    text-shadow: 2px 1px 2px black;
+}
+
+.header a:hover{
+    transform: scale(1.2);
+    background-color: #fd9a18;
+    border: 2px dashed white;
+    color: #0f0e0d;
+}
+
+.section{
+    padding: 1rem;
+    /* box-shadow: 1px 1px 2px 3px black; */
+    background-color: #fd9a18;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.b{
+    background-color: wheat;
+    color: #0f0e0d;
+}
+
+.c{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.c div{
+    padding: 1rem;
+}
+
+.part2{
+    background-color: wheat;
+    color: black;
+    text-align: center;
+}
+
+.part1, .part3{
+    text-align: justify;
+}
+
+/* .part1{
+    text-align: justify;
+} */
